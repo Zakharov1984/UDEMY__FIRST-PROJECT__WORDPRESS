@@ -101,4 +101,63 @@ margin-top: 65px;
 .more-link {
     display: inline-block;
     margin-top: 5px;
+    line-height: 15px;
 }
+
+.what-awaits {
+    min-height: 607px;
+    padding: 85px 0 75px;
+    background: #efefef;
+}
+
+.what-awaits__title {
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 1;
+    text-align: center;
+    color: #252525;
+    text-transform: uppercase;
+}
+
+.what-awaits__delimiter {
+    width: 220px;
+    height: 7px;
+    margin: 18px auto 0;
+    background: #f9bf3b;
+}
+
+.what-awaits__description {
+    margin-top: 18px;
+    font-size: 23px;
+    font-weight: normal;
+    line-height: 0.87;
+    text-align: center;
+    color: #4a4a4a;
+}
+
+.what-awaits__info {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.what-awaits__info-possibility {
+    width: 370px;
+    text-align: center;
+}
+
+.possibility-img {
+    max-width: 342px;
+}
+
+.possibility-description {
+    padding-top: 26px;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 1.4;
+    color: #4a4a4a;
+}
+
+
+
