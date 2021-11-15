@@ -8,6 +8,7 @@
 .container {
     width: 1140px;
     margin: 0 auto;
+    position: relative;
 }
 
 .promo {
@@ -162,12 +163,11 @@ margin-top: 65px;
 .optimization {
     min-height: 549px;
     padding: 108px 0 74px;
-    position: relative;
 }
 
 .optimization__info {
     width: 750px;
-    margin-left: 779px;
+    margin-left: 376px;
 }
 
 .optimization__info-header {
@@ -194,13 +194,13 @@ margin-top: 65px;
 
 .optimization__img {
     position: absolute;
-    top: 47px;
-    left: 150px;
+    top: -61px;
+    left: -245px;
     z-index: -1;
 }
 
 .graduation {
-    min-height: 447;
+    min-height: 447px;
     padding: 86px 0 68px ;
     background: url('../img/fourth_block/graduation_from_training_bg.jpg') center center/cover no-repeat; 
 }
@@ -232,7 +232,7 @@ margin-top: 65px;
     height: 118px;
     margin: 0 auto;
     background-color: #b4e2ff;
-    border-radius: 50%;
+    border-radius: 100%;
 }
 
 .graduation-item__img {
