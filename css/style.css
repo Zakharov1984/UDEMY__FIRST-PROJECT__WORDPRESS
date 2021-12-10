@@ -43,13 +43,30 @@
 }
 
 .simple {
+    position: relative;
     margin-top: 20px;
     font-size: 80px;
     font-weight: 900;
-
     line-height: 60px;
     color: #ffff;
     text-transform: uppercase;
+}
+
+.simple::before, .simple::after {
+    content: '';
+    position: absolute;
+    top: 22px;
+    width: 292px;
+    height: 2px;
+    background-color: #fff;
+}
+
+.simple::before {
+    left: -18px
+}
+
+.simple::after {
+    right: -18px;
 }
 
 .title-right {
